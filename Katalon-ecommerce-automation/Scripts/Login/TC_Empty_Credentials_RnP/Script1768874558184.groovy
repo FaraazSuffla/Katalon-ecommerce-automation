@@ -21,18 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/LoginPagePasswordInvaild/input_Swag Labs_user-name'), 'standard_user')
+WebUI.waitForElementVisible(findTestObject('LoginPageEmpty/input_Swag Labs_login-button'), 10)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPagePasswordInvaild/input_Swag Labs_password'), 'mvDaHE11YKoHu8u6/Uf8lg==')
+WebUI.click(findTestObject('Object Repository/LoginPageEmpty/input_Swag Labs_login-button'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/LoginPagePasswordInvaild/input_Swag Labs_login-button'), 10)
+WebUI.waitForElementVisible(findTestObject('LoginPageEmpty/h3_Epic sadface Username is required'), 10)
 
-WebUI.click(findTestObject('Object Repository/LoginPagePasswordInvaild/input_Swag Labs_login-button'))
-
-WebUI.waitForElementVisible(findTestObject('LoginPagePasswordInvaild/h3_Epic sadface Username and password do no_0e8909'), 10)
-
-WebUI.verifyElementText(findTestObject('Object Repository/LoginPagePasswordInvaild/h3_Epic sadface Username and password do no_0e8909'), 
-    'Epic sadface: Username and password do not match any user in this service')
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/LoginPageEmpty/h3_Epic sadface Username is required'), 'Epic sadface: Username is required')
 
