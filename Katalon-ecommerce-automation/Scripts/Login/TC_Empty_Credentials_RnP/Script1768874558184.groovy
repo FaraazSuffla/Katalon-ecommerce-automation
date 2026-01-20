@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.waitForElementVisible(findTestObject('LoginPageEmpty/input_Swag Labs_login-button'), 10)
+WebUI.waitForElementVisible(findTestObject('LoginPage/input_Swag Labs_login-button'), 10)
 
-WebUI.click(findTestObject('Object Repository/LoginPageEmpty/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Object Repository/LoginPage/input_Swag Labs_login-button'))
 
-WebUI.waitForElementVisible(findTestObject('LoginPageEmpty/h3_Epic sadface Username is required'), 10)
+WebUI.waitForElementVisible(findTestObject('LoginPage/h3_Epic sadface Username is required'), 10)
 
-WebUI.verifyElementText(findTestObject('Object Repository/LoginPageEmpty/h3_Epic sadface Username is required'), 'Epic sadface: Username is required')
+WebUI.verifyElementText(findTestObject('Object Repository/LoginPage/h3_Epic sadface Username is required'), 'Epic sadface: Username is required')
 

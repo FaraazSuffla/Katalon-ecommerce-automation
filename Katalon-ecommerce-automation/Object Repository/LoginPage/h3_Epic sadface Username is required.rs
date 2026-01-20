@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>1b9bac6c-eb97-4a07-8420-f06b41c9f500</webElementGuid>
+      <webElementGuid>a0af338d-98ed-41df-88ac-58bb9873201c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>bac20ad6-ec16-45d1-a989-33153cf956f9</webElementGuid>
+      <webElementGuid>7079ca17-e4dc-4526-8ce2-fcaf780557dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Epic sadface: Username is required</value>
-      <webElementGuid>0e2e66ce-491f-42d3-b2e2-ae0c4da232eb</webElementGuid>
+      <webElementGuid>5e6617cb-13cb-4eac-8652-13219d7346f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>959c9381-fe5e-4b25-88f9-a5e86b1b8156</webElementGuid>
+      <webElementGuid>d6cdc67b-97dd-4142-98e0-40690d81f084</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
-      <webElementGuid>8475c11b-867e-408d-8204-539766307d36</webElementGuid>
+      <webElementGuid>dc3b8a2a-33e7-4aeb-ad2c-a2089df1ef81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>917ede45-b205-41c7-9e2e-95493e4a6275</webElementGuid>
+      <webElementGuid>3f5400c0-8457-4877-bda3-3ba5ce7e2b33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>e3d01c01-7c22-455d-94c4-6dce8559b138</webElementGuid>
+      <webElementGuid>5f9885c3-e740-4284-8011-fd50e81f1c52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Epic sadface: Username is required']/parent::*</value>
-      <webElementGuid>61ca0535-7e86-49ea-ba04-946fb408bbb0</webElementGuid>
+      <webElementGuid>e71c34b4-d006-4ee8-a35b-23141ee8a238</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>ca1c7b12-dc6e-405c-a7b5-56cd347c355b</webElementGuid>
+      <webElementGuid>057f9e8a-1bed-4099-abec-556627fc2650</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Epic sadface: Username is required' or . = 'Epic sadface: Username is required')]</value>
-      <webElementGuid>9d9f779a-5b53-47f6-81e5-5b2c4e4672c0</webElementGuid>
+      <webElementGuid>61047282-9a29-4eff-97e3-0d0fbddc0960</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

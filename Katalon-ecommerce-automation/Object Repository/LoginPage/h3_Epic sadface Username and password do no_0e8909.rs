@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>4e8b6c63-238e-437f-8374-273ffb42885b</webElementGuid>
+      <webElementGuid>8b566adf-7d1f-4f79-99d0-59778b79dbbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>c82c1fbd-2a14-44d9-83bd-8786a076a4a9</webElementGuid>
+      <webElementGuid>2a599edc-ba0c-4bd8-ba47-f915be7b9525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Epic sadface: Username and password do not match any user in this service</value>
-      <webElementGuid>5084ffff-97d9-4721-b9fa-620b80839164</webElementGuid>
+      <webElementGuid>ad203045-84aa-4759-88f9-8362af132eff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>d689e3a5-9f64-4da9-88f4-3dd8407c037d</webElementGuid>
+      <webElementGuid>c5f063be-1950-4e58-907c-16d9d243fa1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
-      <webElementGuid>c78c2e01-8be4-4cc3-b0d1-f0f246131767</webElementGuid>
+      <webElementGuid>18e99d9b-09d9-45d2-ac46-ff6ba54e74b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>199bf0df-8ec1-465b-afab-38108699a089</webElementGuid>
+      <webElementGuid>37c35b10-9b3c-405d-b084-08ebb8d4931d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>4e6b0468-ac20-4356-a6f7-f9b20b3b3d2c</webElementGuid>
+      <webElementGuid>0f6bea6f-0e0f-455e-b194-e9324b24ad28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Epic sadface: Username and password do not match any user in this service']/parent::*</value>
-      <webElementGuid>e073e785-010c-4d24-a471-5870d4468b00</webElementGuid>
+      <webElementGuid>ebd9308f-6d3f-4f20-b763-b4dbee3676dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>01dc28ec-480d-4bce-8e09-c6519a1055fc</webElementGuid>
+      <webElementGuid>9b8654bf-2925-4268-b2d9-9bb2c3246959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Epic sadface: Username and password do not match any user in this service' or . = 'Epic sadface: Username and password do not match any user in this service')]</value>
-      <webElementGuid>494fd1af-470b-44df-b994-53c332cf540e</webElementGuid>
+      <webElementGuid>2f9b346c-6663-4858-85ef-eab851c69c8b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
