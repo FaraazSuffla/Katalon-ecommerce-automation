@@ -3,10 +3,17 @@
 [![Katalon Studio](https://img.shields.io/badge/Katalon%20Studio-10.4.3-2C7BE5)](https://katalon.com/)
 ![Type](https://img.shields.io/badge/Type-WebUI-6C757D)
 ![Approach](https://img.shields.io/badge/Approach-Record%20%26%20Playback-6C757D)
+![Mindset](https://img.shields.io/badge/Mindset-QA%20first-6C757D)
 
-Web UI automation project built with **Katalon Studio** using **Record & Playback** (no custom code). The focus is a clean, portfolio-friendly example of **real-world QA automation practices**: positive/negative scenarios, stable waits, reusable locators, and clear validations.
+Web UI automation project built with **Katalon Studio** using **Record & Playback** (no custom code). Think of it as a small, opinionated showcase of **practical QA automation**: positive/negative scenarios, stable waits, reusable locators, and clear validations.
 
 **Current repo coverage**: Login automation (positive + negative). Additional e-commerce flows are **planned** but not yet committed as automated tests.
+
+## Why this repo exists
+Because automation is more than “click-record-run”:
+- **Readable**: you should understand what a test is proving at a glance.
+- **Stable**: waits and assertions matter more than speed-running steps.
+- **Maintainable**: locators live in the Object Repository, not scattered everywhere.
 
 ## Table of Contents
 - [Application Under Test](#application-under-test)
@@ -42,6 +49,12 @@ Web UI automation project built with **Katalon Studio** using **Record & Playbac
 - **Katalon Studio 10.4.3** (WebUI)
 - **Selenium** (bundled with Katalon WebUI)
 - **Object Repository** for centralized locator management
+
+## Automation principles (the “house rules”)
+- **Assert the outcome**: every test should verify something meaningful (not just “no errors happened”).
+- **Prefer smart waits**: use Katalon waits instead of hard sleeps where possible.
+- **One place for selectors**: keep UI locator edits in the Object Repository.
+- **Small, focused tests**: aim for clear intent and easy debugging.
 
 ## Quick Start (Katalon Studio)
 1. Clone this repository.
